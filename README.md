@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tanay105/dsa_projects.svg?branch=master)](https://travis-ci.com/tanay105/dsa_projects)
+
 # dsa_projects
 Undergraduate DSA projects
 
