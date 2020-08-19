@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<curses.h>
 typedef struct tree
 {
 	int info;
