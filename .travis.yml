@@ -15,4 +15,4 @@ script:
     - gcc avl_tree.c
     - gcc redblack_tree.c
     - cd ../library_mgmt_system
-    - gcc library_mgmt_system.c
+    - gcc library_mgmt_system.c -lncurses
