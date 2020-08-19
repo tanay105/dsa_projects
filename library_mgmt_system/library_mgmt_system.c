@@ -1,6 +1,6 @@
 /****Library management system****/
 #include<stdio.h>
-#include<conio.h>
+#include<curses.h>
 #include<math.h>
 #include<stdlib.h>
 #include<string.h>
