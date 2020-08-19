@@ -3,6 +3,9 @@ language: c
 compiler:
     - gcc
 
+before_install:
+  - sudo apt-get -y install libncurses5-dev libncursesw5-dev
+
 script:
     - cd assignments
     - gcc 2D_matrix_multiplication.c
