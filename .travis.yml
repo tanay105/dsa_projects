@@ -9,10 +9,11 @@ before_install:
 script:
     - cd assignments
     - gcc 2D_matrix_multiplication.c
-    #- gcc binarySearchTree.c
     - gcc depthFirstSearch.c
-    - cd ../avl_vs_redblack
-    - gcc avl_tree.c
-    - gcc redblack_tree.c
     - cd ../library_mgmt_system
     - gcc library_mgmt_system.c -lncurses
+    - cd ../avl_vs_redblack
+    - gcc avl_tree.c -o avl_tree_time
+    - ./avl_tree_time
+    - gcc redblack_tree.c -o redblack_tree_time
+    - ./redblack_tree_time
